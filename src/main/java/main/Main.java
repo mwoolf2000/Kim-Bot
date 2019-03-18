@@ -54,15 +54,15 @@ public class Main extends ListenerAdapter {
         //adds all of the commands to the commandMap.
         commandMap.put("flip", new Flip());
         commandMap.put("8ball", new EightBall(new String[]{
-                "Yeah sure i guess lol.",
-                "No, go fuck yourself, asshole.",
-                "Maybe idk, what do i look like a fuckin' genie to you? you know what kid, fuck you.",
-                "Eh, id give it a solid and firm, **probably.**",
+                "Yeah sure I guess lol.",
+                "No, shut up.",
+                "I have no idea dude.",
+                "Eh, I'd give it a solid and firm, **probably.**",
                 "Probably not, lmao.",
                 "Ask again later.",
                 "My sources say no.",
                 "Concentrate and try again.",
-                "I'm busy rn, go bother someone else about your dumb bullshit, cunt."}));
+                "I'm busy right now, go and bother someone else."}));
         commandMap.put("bruh", new Bruh());
         commandMap.put("videochannel", new VideoChannel());
         commandMap.put("roll", new Roll());
